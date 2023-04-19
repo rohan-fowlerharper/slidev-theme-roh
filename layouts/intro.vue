@@ -6,6 +6,6 @@
       <slot />
     </div>
 
-    <img src="/assets/daa-white-line.svg" alt="white line" width="960" class="mt-10">
+    <img src="/assets/daa-white-line.svg" alt="white line" width="980" class="mt-10">
   </div>
 </template>
