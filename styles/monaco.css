@@ -1,0 +1,9 @@
+body {
+  --slidev-code-background: #1e1e1e;
+}
+
+#container {
+  --slidev-code-background: #1e1e1e;
+  --slidev-code-margin: 0;
+  --slidev-code-radius: 0;
+}
