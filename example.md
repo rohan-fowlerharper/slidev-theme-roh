@@ -88,9 +88,7 @@ monaco: dev
 colorSchema: dark
 ---
 
-# Live Coding
-
-Here's an example of using Monaco
+# Code Snippets
 
 **Regular Code:**
 ```tsx
@@ -106,7 +104,7 @@ function MyComponent() {
 
 ```
 
-**With Diff:**
+**Editable (& Diffs):**
 ```markdown {monaco-diff}
 This line is removed on the right.
 just some text
@@ -120,3 +118,24 @@ zzzzefgh
 Some more text.
 This line is removed on the left.
 ```
+
+---
+
+# Code Sandboxes
+
+<Sandbox
+  pathToFolder="/codeblocks/example"
+  :files="['App.tsx', 'main.css']"
+/>
+
+---
+layout: iframe-right
+url: https://react.dev
+---
+
+# iFrames and Documentation
+
+You can embed iFrames and other HTML elements
+
+- React is a JavaScript library for building user interfaces
+- Learn more about [React](https://react.dev)

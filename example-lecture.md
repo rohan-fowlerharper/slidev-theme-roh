@@ -3,6 +3,7 @@ theme: ./
 highlighter: shiki
 lineNumbers: true
 layout: intro
+title: React State
 ---
 
 # React State
@@ -112,7 +113,6 @@ function MyCounter(props) {
 // BAD - inside a loop
 function MyCounter(props) {
   for (let item of props.items) {
-    // inside a loop -- not at the top-level
     const [count, setCount] = useState(0)
   }
 }
@@ -306,6 +306,17 @@ Presenter Walkthrough:
  -->
 
 ---
+layout: sandbox
+---
+
+# Executable Example
+
+<Sandbox
+  pathToFolder="/codeblocks/example"
+  :files="['App.tsx', 'main.css']"
+/>
+
+---
 
 
 # Review Questions
@@ -314,3 +325,17 @@ Presenter Walkthrough:
 - True or false, components can mutate props?
 - What the data type that is returned from `useState`?
 - If `useState` is initialised to an array? What is the data type of state?
+
+---
+layout: iframe-right
+url: https://react.dev
+---
+
+# Further Reading
+
+- [react.dev](https://react.dev)
+- [Thinking in React](https://react.dev/learn/thinking-in-react)
+- [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+
+
+
